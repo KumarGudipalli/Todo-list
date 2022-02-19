@@ -3,7 +3,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { setCheck } from '../features/todoslice'
 import "./todoitem.css"
- 
+
 
 function Todoitem({name,done,id}) {
   const dispatch = useDispatch()
@@ -19,7 +19,7 @@ function Todoitem({name,done,id}) {
   inputProps={{ 'aria-label': 'secondary checkbox' }}
 />
 
-<p className={done && 'todoItem__done'}>{name}</p>
+<h2 className={done && 'todoItem__done'}>{name}  </h2> 
    </div>
   )
 }

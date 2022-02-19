@@ -1,5 +1,5 @@
 .input{
-    height: 50px;
+    height: 60px;
     width: 80%;
     border-radius: 12px;
     background-color: white;
@@ -17,11 +17,12 @@ input{
 input:focus{
     outline: none;
 }
-button{
+.cbtn{
     margin: 8px;
-    background-color: rgb(214,213,213s);
+    background: linear-gradient(-225deg, rgb(248, 64, 61) 0%, rgb(255, 46, 115) 100%);;
     border:  none;
+    color: white;
     border-radius: 10px;
-    height: 35px;
+    height: 40px;
     width: 100px;
 }

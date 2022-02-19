@@ -1,5 +1,5 @@
 import "./input.css"
- import { useState } from "react"
+ import { useEffect, useState } from "react"
 import {useDispatch} from 'react-redux'
 import { saveTodo } from "../features/todoslice"
 
@@ -16,13 +16,14 @@ function Input() {
           done:false,
           id:Date.now()
         }))
+        setInput(" ")
   }
     return (
     <div className='input'>
         <input type="text" value={input} onChange={(e)=>{
 setInput(e.target.value)
         }} />
-        <button onClick={addtodo}>Add Todo</button>
+        <button className="cbtn" onClick={addtodo}>Add Todo</button>
     </div>
   )
 }

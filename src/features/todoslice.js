@@ -16,6 +16,7 @@ const todoslice = createSlice({
           if(action.payload === item.id) {
            if(item.done === true) {
              item.done = false
+             
            } else {
              item.done = true
            }

@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     width: 80%;
-    background-color: white;
+    background-color: tomato;
     margin: 6px 4px;
-    height: 40px;
+    height: 60px;
     border-radius: 12px;
+    color: white
 
 }
 
@@ -15,5 +16,7 @@
 }
 
 .todoItem__done{
-    text-decoration: line-through;
+    text-decoration :5px solid line-through;
+ color: black;
+   
 }
